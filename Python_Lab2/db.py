@@ -170,46 +170,4 @@ for i in manuf:
     soft=db.getAllManufSoftware(i.id)
     for s in soft:
         print(s)
-"""
-m = things.Manufacturer(1, "Microsoft")
-# s1 = things.Software(1, "Excel", 2.0, m) DELETED
-s2 = things.Software(2, "Word", 3.0, m)
-s3 = things.Software(3, "PowerPoint", 1.0, m)
-m2 = things.Manufacturer(2, "Amazon")
-s4 = things.Software(4, "GGG", 1.5, m2)
-s5 = things.Software(5, "GL", 1.2, m2)
-# addManufacturer(m2)
-# addSoftware(s1)
-# addSoftware(s2)
-# addSoftware(s3)
-# addSoftware(s4)
-# addSoftware(s5)
-# arr=getAllManufSoftware(1)
-# for i in arr:
-#   print(i.toString())
-# print(getManufacturer(1).toString())
-# print(getSoftware(1).toString())
-# print(getSoftware(2).toString())
-# addSoftware(s1)
-# delSoftware(1)
-# arr=getAllManufSoftware(1)
-# for i in arr:
-#   print(i.toString())
-# arr=getAllManufacturers()
-# for i in arr:
-#    print(i.toString())
-# arr=findSoftwareByName("Word")
-# for i in arr:
-#    print(i.toString())
-# editSoftware(2, things.Software(2,"Excel",3.0,m))
-db.delManufacturer(1)
-# TEST
-# TEST
-# TEST
-# TEST COUNT SOFTWARE
-# TEST
-# TEST
-# TEST
-
-"""
 db.close()
