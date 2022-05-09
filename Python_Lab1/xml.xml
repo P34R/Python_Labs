@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!DOCTYPE root SYSTEM "xml.dtd" >
+<root>
+    <manufacturer id="1" name="Microsoft">
+        <software id="2" name="Excel" version="2.0"/>
+        <software id="3" name="Word" version="3.0"/>
+        <software id="4" name="PowerPoint" version="1.7"/>
+    </manufacturer>
+    <manufacturer id="2" name="JetBrains">
+        <software id="1" name="PyCharm" version="3.8"/>
+        <software id="2" name="CLion" version="0.9"/>
+    </manufacturer>
+</root>
+
+
+
+

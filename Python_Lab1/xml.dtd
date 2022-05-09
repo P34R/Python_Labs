@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!ELEMENT root (manufacturer)*>
+        <!ELEMENT manufacturer (software+)>
+        <!ATTLIST manufacturer id CDATA #REQUIRED  name CDATA #REQUIRED>
+        <!ELEMENT software EMPTY>
+        <!ATTLIST software id CDATA #REQUIRED name CDATA #REQUIRED version CDATA #REQUIRED>
